@@ -1,0 +1,165 @@
+body {
+        min-height: 100vh ;
+        min-width: 1000px;
+        color: #777777;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+}
+@font-face {
+        font-family: "PT Sans";
+        src: url(https://fonts.googleapis.com/css?family=PT Sans);
+}
+header{
+        height: 230px;
+        background-color:#DCDCDC;
+        overflow: hidden;
+}
+.center{
+        width: 980px;
+        padding: 0px 10px 0px 10px;
+        margin: 0 auto;
+        height: min-content;
+}
+.logoNum{
+        width: 980px;
+        display: flex;
+        margin: 0 auto;
+}
+.logo{
+        justify-content: left;
+        width: 273px;
+        height: 100px;
+        padding: 65px 0px 0px 0px;
+}
+.Num{
+        width: 260px;
+        height: 81px;
+        color: #777777;
+        font-size: 33px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: -4px;                                                                                                                                                                                      
+        line-height: 39px;
+        text-align: right;
+        display: flex;
+        margin-left: auto;
+        justify-content: right;
+        padding-top: 77px;
+        padding-right: 1px;
+}
+menu {
+    background-color: grey;
+    height: min-content;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.menu{
+        width: 902px;
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        letter-spacing: normal;
+        line-height: normal;
+        padding: 26px 0px 27px 0px;
+        text-decoration: none;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+.menu ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+.menu li{
+        display: inline;
+}
+.link{
+        margin: 4px 9px;
+}
+.link:visited {
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.link:hover {
+        color: #FFFFFF;
+        text-decoration: underline;
+}
+.link:link {
+        color: #FFFFFF;
+        text-decoration: none;
+}
+a{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.slider{
+        z-index: -2;
+        margin-top: -62px;
+        background-color: #F8F8F8;
+}
+.Slider{
+        height: 462px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+}
+footer {
+    margin-top: auto;
+    width: 100%;
+    height: 220px;
+    background-color: gray;
+    display: flex;
+}  
+.footerInfo{
+    width: 210px;
+    height: 35px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.35px;
+    padding-top: 50px;
+    margin: 0;
+}
+.footerMenu {
+    width: 119px;
+    height: 117px;
+    float: right;
+    padding: 50px 283px 53px 55px;
+}
+.footerLogoText {
+    width: 220px;
+    height: 39px;
+    float: right;
+    padding: 49px 1px 132px 0px;
+}
+.footerLogo {
+    width: 36px;
+    height: 38px;
+    float: left;
+    padding: 1px 7px 0px 0px;
+}
+.footerText {
+    width: 177px;
+    height: 33px;
+    color: #ffffff;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    float: right;
+    margin: 0;
+}
+
